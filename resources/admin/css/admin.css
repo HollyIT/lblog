@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.pager-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.pager-links nav div >*:first-child{
+    margin-right: 10px;
+}
